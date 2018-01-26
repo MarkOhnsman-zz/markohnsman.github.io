@@ -314,23 +314,3 @@ header.masthead p {
 .my-logo {
   height: 100px
 }
-
-.test1 {
-  overflow: hidden;
-  background-size: cover;
-  background-position: center;
-  background-image: url('../img/portfolio/thumbnails/1.jpg');
-}
-
-.test1:hover{
-  background:linear-gradient(0deg,rgba(240, 95, 64, 0.9),rgba(240, 95, 64, 0.9)),url(../img/portfolio/thumbnails/1.jpg);
-  background-size: 100%
-}
-
-.project-text{
-  display: none;
-}
-
-.test1:hover .project-text{
-  display: block;
-}
